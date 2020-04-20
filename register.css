@@ -1,0 +1,199 @@
+body {
+    background: url('background.jpg');
+    background-repeat: no-repeat;
+    background-color: #f8f8f8f8;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    margin-top: 60px;
+    text-align: center; 
+    background: #ffffff;
+    width: 400px;
+    height: 470px;
+    border-radius: 4px;
+}
+
+input {
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0.5em 0.7rem;
+    width: 280px;
+    transition: all ease .6s;
+    font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Sen', sans-serif;
+    letter-spacing: 1px;
+}
+
+hr {
+    margin-top: 0px !important;
+    width: 290px;
+}
+
+.submit {
+    width: 290px;
+    height: 45px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(9, 174, 240);
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Sen', sans-serif;
+}
+
+.submit:hover {
+    background-color: rgb(30, 149, 196);
+    transition: .6s;
+
+}
+
+label {
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 50px;
+    color: transparent;
+    font-family: 'Ropa Sans', sans-serif;
+    
+}
+
+input[type=checkbox] {
+    position: relative;
+    width: 40px;
+    height: 25px;
+    -webkit-appearance: none;
+    background: #c6c6c6;
+    outline: none;
+    border-radius: 20px;
+    transition: .5s;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+}
+
+input:checked[type=checkbox] {
+    background: rgb(30, 149, 196);
+
+}
+
+input[type=checkbox]:before {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background: #fff;
+    transition: .5s;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+
+input:checked[type=checkbox]:before {
+    left: 20px;
+}
+
+.checkbox {
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.check {
+    cursor: pointer;
+}
+
+p {
+    margin-top: 50px;
+    font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Sen', sans-serif;
+    color: rgb(112, 112, 112);
+    font-size: 14px;
+}
+
+.register {
+    font-size: 14px;
+    color: rgb(30, 149, 196);
+    padding: 5px;
+}
+
+.register:hover {
+    color: rgb(8, 185, 255);
+    transition: .1s;
+}
+
+#google_translate_element {
+    margin-top: 40px;
+    color: rgb(9, 174, 240);
+}
+
+#demo {
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgba(9, 174, 240, 0.76);
+    margin-top: 30px;
+    font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Sen', sans-serif;
+}
+
+.foot {
+    text-align: center;
+    margin-top: 100px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Sen', sans-serif;
+    padding: 10px;
+    color: rgb(122, 122, 122);
+    font-size: 13px;
+}
+
+a:hover {
+    color: black;
+    transition: .3s;
+}
+
+.main-footer {
+    text-align: center;
+}
+
+.pass {
+    color: rgb(128, 128, 128);
+    font-size: 14px;
+    font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Sen', sans-serif;
+    cursor: pointer;
+    outline: none;
+    
+}
+
+.gender {
+    color: rgba(133, 133, 133, 0.986);
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding-right: 225px;
+    font-size: 14.4px;
+    font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Sen', sans-serif;
+}
